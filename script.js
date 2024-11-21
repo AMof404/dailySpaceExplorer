@@ -1,4 +1,4 @@
-const NASA_API_KEY = 'sBL7GEYWhx8B4Or02acldXrSkVr4DCE4oiLJNlcm';
+const NASA_API_KEY = '${{ secrets.NASA_KEY}}';
 const NASA_APOD_URL = 'https://api.nasa.gov/planetary/apod';
 let galleryItemCount = 18;
 
