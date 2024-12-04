@@ -1,6 +1,6 @@
 const NASA_API_KEY = 'sBL7GEYWhx8B4Or02acldXrSkVr4DCE4oiLJNlcm';
 const NASA_APOD_URL = 'https://api.nasa.gov/planetary/apod';
-let galleryItemCount = 18;
+let galleryItemCount = 365;
 
 async function fetchApod() {
     const date = document.getElementById('date').value;
